@@ -3,14 +3,16 @@
 #define FLEET_H
 
 #include "Car.h"
+#include "Ford.h"
+#include "Tesla.h"
 
 class Fleet{
   private:
-    Car** fleet;
+    Car **fleet;
   public:
     Fleet();
     Car **get_fleet();
-   ~Fleet();
+
 };
 
 #endif
