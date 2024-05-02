@@ -15,7 +15,7 @@ Fleet::Fleet(){
   fleet[4] = new Tesla('T',50000);
 }
 
-Car** Fleet::get_fleet(){
+Car **Fleet::get_fleet(){
   return fleet;
 }
 
