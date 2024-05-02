@@ -5,7 +5,6 @@ using namespace std;
 
 int main(){
   Fleet a;
-  for(int i=0;i<5;i++){
-    cout << (a.get_fleet()[i]) -> get_emissions() << endl;
+  a.get_fleet();
   }
-}
+

@@ -9,8 +9,8 @@ class Fleet{
     Car** fleet;
   public:
     Fleet();
-    Car** get_fleet();
-    ~Fleet();
+    Car **get_fleet();
+   
 };
 
 #endif
