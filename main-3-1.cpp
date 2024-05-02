@@ -6,5 +6,4 @@ using namespace std;
 int main(){
   Fleet a;
   a.get_fleet();
-  }
-
+}
